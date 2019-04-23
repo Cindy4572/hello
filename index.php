@@ -5,6 +5,8 @@ $resultat = getAllAnnonces();
 
 ?>
 
+<link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.min.js">
+
 <ul>
     <li><?php echo $resultat["annonce1"][0] ?></li>
     <li><?php echo $resultat["annonce1"][1] ?></li>
