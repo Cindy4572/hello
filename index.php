@@ -17,3 +17,14 @@ $resultat = getAllAnnonces();
     <li><?php echo $resultat["annonce2"][1] ?></li>
 </ul>
 
+<?php
+$first = getAllAnnonces();
+
+print_r($first);
+
+$newProduit = insertAnnonce("annnonce3", array("fruit", 2));
+
+echo "<pre>";
+print_r($newProduit);
+
+?>
