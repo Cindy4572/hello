@@ -20,4 +20,8 @@ function insertAnnonce($libelle, $tab) {
     $data[$libelle] = $tab;
     return $data;
 }
+
+function deleteAnnonce() {
+    return[];
+}
 ?>

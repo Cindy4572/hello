@@ -30,3 +30,8 @@ echo "<pre>";
 print_r($newProduit);
 
 ?>
+
+<div></div>
+<script src="jquery">
+
+</script>
